@@ -1,5 +1,5 @@
 # MultiLease
-Project that simulates an car lease system developed for the Programmer Analyst Program at CDI College Montréal in 2020.
+C# ADO.NET project that simulates an car lease system developed for the Programmer Analyst Program at CDI College Montréal in 2020.
 
 What is included
 
