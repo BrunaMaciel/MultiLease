@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ML_ProcessingInformation", "ML_ProcessingInformation.ssmssqlproj", "{2D34972B-2100-44FD-9998-53AAD1228C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D34972B-2100-44FD-9998-53AAD1228C05}.Default|Default.ActiveCfg = Default
+		{B0E8B45E-FCBE-49F9-AE72-4AB66D14E3B9}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61AE4206-11C4-431C-A304-0907F9FA0870}
+	EndGlobalSection
+EndGlobal

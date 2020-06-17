@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MultiLeaseModelStoreContainer" CdmEntityContainer="MultiLeaseEntities">
+    <EntitySetMapping Name="Colors">
+      <EntityTypeMapping TypeName="MultiLeaseModel.Color">
+        <MappingFragment StoreEntitySet="Colors">
+          <ScalarProperty Name="ColorID" ColumnName="ColorID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="MultiLeaseModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Zipcode" ColumnName="Zipcode" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeasesPs">
+      <EntityTypeMapping TypeName="MultiLeaseModel.LeasesP">
+        <MappingFragment StoreEntitySet="LeasesP">
+          <ScalarProperty Name="LeaseID" ColumnName="LeaseID" />
+          <ScalarProperty Name="ContractDate" ColumnName="ContractDate" />
+          <ScalarProperty Name="FirstPaymentDate" ColumnName="FirstPaymentDate" />
+          <ScalarProperty Name="MonthlyPayment" ColumnName="MonthlyPayment" />
+          <ScalarProperty Name="NumOfPayments" ColumnName="NumOfPayments" />
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="TermsID" ColumnName="TermsID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeaseStatus">
+      <EntityTypeMapping TypeName="MultiLeaseModel.LeaseStatu">
+        <MappingFragment StoreEntitySet="LeaseStatus">
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeaseTerms">
+      <EntityTypeMapping TypeName="MultiLeaseModel.LeaseTerm">
+        <MappingFragment StoreEntitySet="LeaseTerms">
+          <ScalarProperty Name="LeaseTermID" ColumnName="LeaseTermID" />
+          <ScalarProperty Name="NumOfYears" ColumnName="NumOfYears" />
+          <ScalarProperty Name="MaxKM" ColumnName="MaxKM" />
+          <ScalarProperty Name="PremiumCharge" ColumnName="PremiumCharge" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Models">
+      <EntityTypeMapping TypeName="MultiLeaseModel.Model">
+        <MappingFragment StoreEntitySet="Models">
+          <ScalarProperty Name="ModelID" ColumnName="ModelID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="MultiLeaseModel.Payment">
+        <MappingFragment StoreEntitySet="Payments">
+          <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
+          <ScalarProperty Name="LeaseID" ColumnName="LeaseID" />
+          <ScalarProperty Name="ContractDate" ColumnName="ContractDate" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Valid" ColumnName="Valid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Types">
+      <EntityTypeMapping TypeName="MultiLeaseModel.Type">
+        <MappingFragment StoreEntitySet="Types">
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vehicles">
+      <EntityTypeMapping TypeName="MultiLeaseModel.Vehicle">
+        <MappingFragment StoreEntitySet="Vehicles">
+          <ScalarProperty Name="VIN" ColumnName="VIN" />
+          <ScalarProperty Name="ModelID" ColumnName="ModelID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="ColorID" ColumnName="ColorID" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Kilometers" ColumnName="Kilometers" />
+          <ScalarProperty Name="NewLease" ColumnName="NewLease" />
+          <ScalarProperty Name="BookValue" ColumnName="BookValue" />
+          <ScalarProperty Name="AutoTransmission" ColumnName="AutoTransmission" />
+          <ScalarProperty Name="AC" ColumnName="AC" />
+          <ScalarProperty Name="PowerLocks" ColumnName="PowerLocks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuditLeasesPs">
+      <EntityTypeMapping TypeName="MultiLeaseModel.AuditLeasesP">
+        <MappingFragment StoreEntitySet="AuditLeasesP">
+          <ScalarProperty Name="AuditID" ColumnName="AuditID" />
+          <ScalarProperty Name="AuditDate" ColumnName="AuditDate" />
+          <ScalarProperty Name="AuditUsername" ColumnName="AuditUsername" />
+          <ScalarProperty Name="BeforeAfter" ColumnName="BeforeAfter" />
+          <ScalarProperty Name="ChangeType" ColumnName="ChangeType" />
+          <ScalarProperty Name="LeaseID" ColumnName="LeaseID" />
+          <ScalarProperty Name="ContractDate" ColumnName="ContractDate" />
+          <ScalarProperty Name="FirstPaymentDate" ColumnName="FirstPaymentDate" />
+          <ScalarProperty Name="MonthlyPayment" ColumnName="MonthlyPayment" />
+          <ScalarProperty Name="NumOfPayments" ColumnName="NumOfPayments" />
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="TermsID" ColumnName="TermsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetailedVehicles">
+      <EntityTypeMapping TypeName="MultiLeaseModel.DetailedVehicle">
+        <MappingFragment StoreEntitySet="DetailedVehicle">
+          <ScalarProperty Name="VIN" ColumnName="VIN" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Kilometers" ColumnName="Kilometers" />
+          <ScalarProperty Name="New_Lease" ColumnName="New Lease" />
+          <ScalarProperty Name="BookValue" ColumnName="BookValue" />
+          <ScalarProperty Name="Automatic_Transmission" ColumnName="Automatic Transmission" />
+          <ScalarProperty Name="AC" ColumnName="AC" />
+          <ScalarProperty Name="Power_Locks" ColumnName="Power Locks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeasesDetails">
+      <EntityTypeMapping TypeName="MultiLeaseModel.LeasesDetail">
+        <MappingFragment StoreEntitySet="LeasesDetails">
+          <ScalarProperty Name="LeaseID" ColumnName="LeaseID" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+          <ScalarProperty Name="ContractDate" ColumnName="ContractDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="FirstPaymentDate" ColumnName="FirstPaymentDate" />
+          <ScalarProperty Name="MonthlyPayment" ColumnName="MonthlyPayment" />
+          <ScalarProperty Name="NumOfPayments" ColumnName="NumOfPayments" />
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
+          <ScalarProperty Name="NumOfYears" ColumnName="NumOfYears" />
+          <ScalarProperty Name="MaxKM" ColumnName="MaxKM" />
+          <ScalarProperty Name="PremiumCharge" ColumnName="PremiumCharge" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeasesPayments">
+      <EntityTypeMapping TypeName="MultiLeaseModel.LeasesPayment">
+        <MappingFragment StoreEntitySet="LeasesPayments">
+          <ScalarProperty Name="LeaseID" ColumnName="LeaseID" />
+          <ScalarProperty Name="ContractDate" ColumnName="ContractDate" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Valid" ColumnName="Valid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

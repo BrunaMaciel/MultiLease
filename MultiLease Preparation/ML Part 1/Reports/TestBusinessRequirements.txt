@@ -1,0 +1,19 @@
+﻿--BRUNA DE FREITAS MACIEL
+
+Msg 547, Level 16, State 0, Line 7
+A instrução INSERT conflitou com a restrição do CHECK "ck_LeaseTerms_MaxKM". O conflito ocorreu no banco de dados "ML_635-203263", tabela "dbo.LeaseTerms", column 'MaxKM'.
+A instrução foi finalizada.
+Msg 547, Level 16, State 0, Line 11
+A instrução INSERT conflitou com a restrição do CHECK "ck_LeaseTerms_NumOfYears". O conflito ocorreu no banco de dados "ML_635-203263", tabela "dbo.LeaseTerms", column 'NumOfYears'.
+A instrução foi finalizada.
+Msg 547, Level 16, State 0, Line 15
+A instrução INSERT conflitou com a restrição do CHECK "ck_NumOfPayments". O conflito ocorreu no banco de dados "ML_635-203263", tabela "dbo.Leases", column 'NumOfPayments'.
+A instrução foi finalizada.
+Msg 547, Level 16, State 0, Line 22
+A instrução INSERT conflitou com a restrição do CHECK "ck_FirstPaymentDate". O conflito ocorreu no banco de dados "ML_635-203263", tabela "dbo.Leases".
+A instrução foi finalizada.
+Msg 547, Level 16, State 0, Line 30
+A instrução INSERT conflitou com a restrição do CHECK "ck_PowerLocks". O conflito ocorreu no banco de dados "ML_635-203263", tabela "dbo.Vehicles".
+A instrução foi finalizada.
+
+Completion time: 2020-03-10T15:02:02.0666276-04:00

@@ -1,0 +1,10 @@
+﻿--BRUNA DE FREITAS MACIEL
+
+VIN                            Model           Type            Color
+------------------------------ --------------- --------------- ---------------
+K219M-K129P-V12BP-210G4        Speedy          2dr Coupe       Silver Grey
+
+(1 row affected)
+
+
+Completion time: 2020-03-10T15:06:09.4862775-04:00

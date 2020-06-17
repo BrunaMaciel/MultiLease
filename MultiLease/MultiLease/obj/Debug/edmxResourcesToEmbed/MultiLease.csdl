@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MultiLeaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Color">
+    <Key>
+      <PropertyRef Name="ColorID" />
+    </Key>
+    <Property Name="ColorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.fk_Vehicles_Colors" FromRole="Colors" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Province" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Zipcode" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="LeasesPs" Relationship="Self.fk_Leases_Customers_LP" FromRole="Customers" ToRole="LeasesP" />
+  </EntityType>
+  <EntityType Name="LeasesP">
+    <Key>
+      <PropertyRef Name="LeaseID" />
+      <PropertyRef Name="ContractDate" />
+    </Key>
+    <Property Name="LeaseID" Type="Int32" Nullable="false" />
+    <Property Name="ContractDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FirstPaymentDate" Type="DateTime" Precision="3" />
+    <Property Name="MonthlyPayment" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NumOfPayments" Type="Int32" />
+    <Property Name="VehicleID" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="TermsID" Type="Int32" />
+    <Property Name="StatusID" Type="Int32" />
+    <NavigationProperty Name="Customer" Relationship="Self.fk_Leases_Customers_LP" FromRole="LeasesP" ToRole="Customers" />
+    <NavigationProperty Name="LeaseStatu" Relationship="Self.fk_Leases_Status_LP" FromRole="LeasesP" ToRole="LeaseStatus" />
+    <NavigationProperty Name="LeaseTerm" Relationship="Self.fk_Leases_Terms_LP" FromRole="LeasesP" ToRole="LeaseTerms" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.fk_Leases_Vehicles_LP" FromRole="LeasesP" ToRole="Vehicles" />
+    <NavigationProperty Name="Payments" Relationship="Self.fk_Payments_Leases" FromRole="LeasesP" ToRole="Payments" />
+  </EntityType>
+  <EntityType Name="LeaseStatu">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="LeasesPs" Relationship="Self.fk_Leases_Status_LP" FromRole="LeaseStatus" ToRole="LeasesP" />
+  </EntityType>
+  <EntityType Name="LeaseTerm">
+    <Key>
+      <PropertyRef Name="LeaseTermID" />
+    </Key>
+    <Property Name="LeaseTermID" Type="Int32" Nullable="false" />
+    <Property Name="NumOfYears" Type="Int32" Nullable="false" />
+    <Property Name="MaxKM" Type="Int32" Nullable="false" />
+    <Property Name="PremiumCharge" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="LeasesPs" Relationship="Self.fk_Leases_Terms_LP" FromRole="LeaseTerms" ToRole="LeasesP" />
+  </EntityType>
+  <EntityType Name="Model">
+    <Key>
+      <PropertyRef Name="ModelID" />
+    </Key>
+    <Property Name="ModelID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.fk_Vehicles_Models" FromRole="Models" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentID" />
+    </Key>
+    <Property Name="PaymentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LeaseID" Type="Int32" />
+    <Property Name="ContractDate" Type="DateTime" Precision="3" />
+    <Property Name="PaymentDate" Type="DateTime" Precision="3" />
+    <Property Name="Amount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Valid" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="LeasesP" Relationship="Self.fk_Payments_Leases" FromRole="Payments" ToRole="LeasesP" />
+  </EntityType>
+  <EntityType Name="Type">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.fk_Vehicles_Types" FromRole="Types" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="Vehicle">
+    <Key>
+      <PropertyRef Name="VIN" />
+    </Key>
+    <Property Name="VIN" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ModelID" Type="Int32" />
+    <Property Name="TypeID" Type="Int32" />
+    <Property Name="ColorID" Type="Int32" />
+    <Property Name="Year" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="Kilometers" Type="Int32" />
+    <Property Name="NewLease" Type="Boolean" />
+    <Property Name="BookValue" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AutoTransmission" Type="Boolean" />
+    <Property Name="AC" Type="Boolean" />
+    <Property Name="PowerLocks" Type="Boolean" />
+    <NavigationProperty Name="Color" Relationship="Self.fk_Vehicles_Colors" FromRole="Vehicles" ToRole="Colors" />
+    <NavigationProperty Name="LeasesPs" Relationship="Self.fk_Leases_Vehicles_LP" FromRole="Vehicles" ToRole="LeasesP" />
+    <NavigationProperty Name="Model" Relationship="Self.fk_Vehicles_Models" FromRole="Vehicles" ToRole="Models" />
+    <NavigationProperty Name="Type" Relationship="Self.fk_Vehicles_Types" FromRole="Vehicles" ToRole="Types" />
+  </EntityType>
+  <EntityType Name="AuditLeasesP">
+    <Key>
+      <PropertyRef Name="AuditID" />
+    </Key>
+    <Property Name="AuditID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AuditDate" Type="DateTime" Precision="3" />
+    <Property Name="AuditUsername" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="BeforeAfter" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="ChangeType" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="LeaseID" Type="Int32" />
+    <Property Name="ContractDate" Type="DateTime" Precision="3" />
+    <Property Name="FirstPaymentDate" Type="DateTime" Precision="3" />
+    <Property Name="MonthlyPayment" Type="Int32" />
+    <Property Name="NumOfPayments" Type="Int32" />
+    <Property Name="VehicleID" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="TermsID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DetailedVehicle">
+    <Key>
+      <PropertyRef Name="VIN" />
+      <PropertyRef Name="New_Lease" />
+      <PropertyRef Name="Automatic_Transmission" />
+      <PropertyRef Name="AC" />
+      <PropertyRef Name="Power_Locks" />
+    </Key>
+    <Property Name="VIN" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Color" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Year" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="Kilometers" Type="Int32" />
+    <Property Name="New_Lease" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BookValue" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Automatic_Transmission" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AC" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Power_Locks" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LeasesDetail">
+    <Key>
+      <PropertyRef Name="LeaseID" />
+      <PropertyRef Name="Customer" />
+      <PropertyRef Name="NumOfYears" />
+      <PropertyRef Name="MaxKM" />
+    </Key>
+    <Property Name="LeaseID" Type="Int32" Nullable="false" />
+    <Property Name="Customer" Type="String" MaxLength="31" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContractDate" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="FirstPaymentDate" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="MonthlyPayment" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="NumOfPayments" Type="Int32" />
+    <Property Name="VehicleID" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="NumOfYears" Type="Int32" Nullable="false" />
+    <Property Name="MaxKM" Type="Int32" Nullable="false" />
+    <Property Name="PremiumCharge" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="LeasesPayment">
+    <Key>
+      <PropertyRef Name="LeaseID" />
+      <PropertyRef Name="Customer" />
+      <PropertyRef Name="Phone" />
+      <PropertyRef Name="PaymentID" />
+    </Key>
+    <Property Name="LeaseID" Type="Int32" Nullable="false" />
+    <Property Name="ContractDate" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Customer" Type="String" MaxLength="31" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VehicleID" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Model" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Year" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentID" Type="Int32" Nullable="false" />
+    <Property Name="PaymentDate" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Valid" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="fk_Vehicles_Colors">
+    <End Role="Colors" Type="Self.Color" Multiplicity="0..1" />
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Colors">
+        <PropertyRef Name="ColorID" />
+      </Principal>
+      <Dependent Role="Vehicles">
+        <PropertyRef Name="ColorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Leases_Customers_LP">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="LeasesP" Type="Self.LeasesP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="LeasesP">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Leases_Status_LP">
+    <End Role="LeaseStatus" Type="Self.LeaseStatu" Multiplicity="0..1" />
+    <End Role="LeasesP" Type="Self.LeasesP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LeaseStatus">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="LeasesP">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Leases_Terms_LP">
+    <End Role="LeaseTerms" Type="Self.LeaseTerm" Multiplicity="0..1" />
+    <End Role="LeasesP" Type="Self.LeasesP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LeaseTerms">
+        <PropertyRef Name="LeaseTermID" />
+      </Principal>
+      <Dependent Role="LeasesP">
+        <PropertyRef Name="TermsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Leases_Vehicles_LP">
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="0..1" />
+    <End Role="LeasesP" Type="Self.LeasesP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicles">
+        <PropertyRef Name="VIN" />
+      </Principal>
+      <Dependent Role="LeasesP">
+        <PropertyRef Name="VehicleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Payments_Leases">
+    <End Role="LeasesP" Type="Self.LeasesP" Multiplicity="0..1" />
+    <End Role="Payments" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LeasesP">
+        <PropertyRef Name="LeaseID" />
+        <PropertyRef Name="ContractDate" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="LeaseID" />
+        <PropertyRef Name="ContractDate" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Vehicles_Models">
+    <End Role="Models" Type="Self.Model" Multiplicity="0..1" />
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Models">
+        <PropertyRef Name="ModelID" />
+      </Principal>
+      <Dependent Role="Vehicles">
+        <PropertyRef Name="ModelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Vehicles_Types">
+    <End Role="Types" Type="Self.Type" Multiplicity="0..1" />
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Types">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Vehicles">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MultiLeaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Colors" EntityType="Self.Color" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="LeasesPs" EntityType="Self.LeasesP" />
+    <EntitySet Name="LeaseStatus" EntityType="Self.LeaseStatu" />
+    <EntitySet Name="LeaseTerms" EntityType="Self.LeaseTerm" />
+    <EntitySet Name="Models" EntityType="Self.Model" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Types" EntityType="Self.Type" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicle" />
+    <EntitySet Name="AuditLeasesPs" EntityType="Self.AuditLeasesP" />
+    <EntitySet Name="DetailedVehicles" EntityType="Self.DetailedVehicle" />
+    <EntitySet Name="LeasesDetails" EntityType="Self.LeasesDetail" />
+    <EntitySet Name="LeasesPayments" EntityType="Self.LeasesPayment" />
+    <AssociationSet Name="fk_Vehicles_Colors" Association="Self.fk_Vehicles_Colors">
+      <End Role="Colors" EntitySet="Colors" />
+      <End Role="Vehicles" EntitySet="Vehicles" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Leases_Customers_LP" Association="Self.fk_Leases_Customers_LP">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="LeasesP" EntitySet="LeasesPs" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Leases_Status_LP" Association="Self.fk_Leases_Status_LP">
+      <End Role="LeaseStatus" EntitySet="LeaseStatus" />
+      <End Role="LeasesP" EntitySet="LeasesPs" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Leases_Terms_LP" Association="Self.fk_Leases_Terms_LP">
+      <End Role="LeaseTerms" EntitySet="LeaseTerms" />
+      <End Role="LeasesP" EntitySet="LeasesPs" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Leases_Vehicles_LP" Association="Self.fk_Leases_Vehicles_LP">
+      <End Role="Vehicles" EntitySet="Vehicles" />
+      <End Role="LeasesP" EntitySet="LeasesPs" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Payments_Leases" Association="Self.fk_Payments_Leases">
+      <End Role="LeasesP" EntitySet="LeasesPs" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Vehicles_Models" Association="Self.fk_Vehicles_Models">
+      <End Role="Models" EntitySet="Models" />
+      <End Role="Vehicles" EntitySet="Vehicles" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Vehicles_Types" Association="Self.fk_Vehicles_Types">
+      <End Role="Types" EntitySet="Types" />
+      <End Role="Vehicles" EntitySet="Vehicles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

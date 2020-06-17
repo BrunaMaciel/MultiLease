@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ML_Project">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="BRUNA-DELL:BRUNA-DELL\Bruna">
+          <Created>2020-03-06T15:12:00.4713245-05:00</Created>
+          <Type>SQL</Type>
+          <Server>BRUNA-DELL</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>ML_635-203263</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01-CreateDBs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01-CreateDBs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02-CreateMLTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02-CreateMLTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03-CreateAuditLeases.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03-CreateAuditLeases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04-CreatePaymentTrigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04-CreatePaymentTrigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05-PopulateTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05-PopulateTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06-CreateDetailedVehicleView.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06-CreateDetailedVehicleView.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07-CreateLeasesAndTermsView.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07-CreateLeasesAndTermsView.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08-CreateInfoViews.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08-CreateInfoViews.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CleanUpDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CleanUpDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DisplayDBInfo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DisplayDBInfo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DisplayML_E.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DisplayML_E.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Step07.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Step07.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Step08.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Step08.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Step09.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Step09.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Step10.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Step10.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TestBusinessRequirements.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BRUNA-DELL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BRUNA-DELL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TestBusinessRequirements.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

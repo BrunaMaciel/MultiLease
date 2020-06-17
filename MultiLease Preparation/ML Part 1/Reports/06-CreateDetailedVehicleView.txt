@@ -1,0 +1,15 @@
+﻿--BRUNA DE FREITAS MACIEL
+
+VIN                            Model           Type            Color           Year Kilometers  New Lease BookValue             Automatic Transmission AC   Power Locks
+------------------------------ --------------- --------------- --------------- ---- ----------- --------- --------------------- ---------------------- ---- -----------
+3W9T1-2Q10D-12D0P-2E1R2        SC-430          2dr Coupe       Deep Blue       2003 0           No        90000,00              Yes                    Yes  Yes
+7D901-9W120-Z0029-021P2        Pirate          2dr Coupe       Racey Red       2000 100000      Yes       45000,00              No                     Yes  Yes
+K219M-K129P-V12BP-210G4        Speedy          2dr Coupe       Silver Grey     2003 0           No        60000,00              No                     Yes  Yes
+M21L1-3129S-V1292-L12X1        Rock            Truck           Silver Grey     2001 0           No        85000,00              No                     Yes  Yes
+M21L1-3129S-V1292-L12X2        Rock            Truck           Silver Grey     2001 127000      Yes       45000,00              No                     Yes  Yes
+Z1221-X129A-KO212-9021J        Expensive       4dr Sedan       Lemon Yellow    2003 0           No        70000,00              Yes                    Yes  No
+
+(6 rows affected)
+
+
+Completion time: 2020-03-10T15:03:21.1922470-04:00

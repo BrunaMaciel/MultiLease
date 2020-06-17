@@ -1,0 +1,38 @@
+﻿<Window x:Class="MultiLease.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiLease"
+        mc:Ignorable="d"
+        Title="MultiLease Management System" Height="450" Width="800">
+    <Grid>
+        <Label Content="Welcome" HorizontalAlignment="Left" Margin="327,75,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24" RenderTransformOrigin="1.033,0.867"/>
+        <DockPanel HorizontalAlignment="Stretch" Height="auto" LastChildFill="False" Margin="0" VerticalAlignment="Top" Width="auto">
+            <Menu Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Stretch" DockPanel.Dock="Top">
+                <MenuItem Header="_Leases">
+                    <MenuItem Header="_New Lease" Name="newLease" Click="MenuNewLease_Click"/>
+                    <MenuItem Header="_Edit Lease" Name="editLease" Click="MenuEditLease_Click"/>
+                    <MenuItem Header="_Search/View Leases" Name="searchLease" Click="MenuSearchLease_Click"/>
+                </MenuItem>
+                <MenuItem Header="_Payments">
+                    <MenuItem Header="_New Payment" Name="newPayment" Click="MenuNewPayment_Click"/>
+                    <MenuItem Header="_Search/View Payments" Name="searchPayment" Click="MenuSearchPayment_Click"/>
+                </MenuItem>
+                <MenuItem Header="_Customers" IsEnabled="False" >
+                    <MenuItem Header="_New Customer" Name="newCustomer" IsEnabled="False"/>
+                    <MenuItem Header="_Edit Customer" Name="editCustomer" IsEnabled="False"/>
+                    <MenuItem Header="_Search Customer" Name="searchCustomer" IsEnabled="False"/>
+                </MenuItem>
+                <MenuItem Header="_Vehicles" IsEnabled="False">
+                    <MenuItem Header="_New Vehicle" Name="newVehicle" IsEnabled="False"/>
+                    <MenuItem Header="_Edit Vehicle" Name="editVehicle" IsEnabled="False"/>
+                    <MenuItem Header="_Search Vehicle" Name="searchVehicle" IsEnabled="False"/>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <Label Content="Please select one action from the menu" HorizontalAlignment="Left" Margin="222,122,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="1.033,0.867"/>
+        <Image HorizontalAlignment="Left" Height="172" Margin="298,161,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.823,-0.017" Source="logo.ico"/>
+
+    </Grid>
+</Window>

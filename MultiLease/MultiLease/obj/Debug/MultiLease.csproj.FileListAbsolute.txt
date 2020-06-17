@@ -1,0 +1,176 @@
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease.csprojAssemblyReference.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\App.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.lref
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\bin\Debug\MultiLease.exe.config
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\bin\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\bin\Debug\MultiLease.pdb
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\bin\Debug\EntityFramework.dll
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\bin\Debug\EntityFramework.xml
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease.g.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease.Properties.Resources.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.GenerateResource.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CoreCompileInputs.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CopyComplete
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\MultiLease.pdb
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\NewLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\NewLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\Welcome.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\Welcome.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\EditLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\FindLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\EditLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\FindLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\SearchLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\SearchLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\MultiLease\MultiLease\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.exe.config
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.pdb
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\EntityFramework.dll
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\EntityFramework.xml
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csprojAssemblyReference.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\Welcome.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\App.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.lref
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\Welcome.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.g.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.Properties.Resources.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.GenerateResource.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CoreCompileInputs.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CopyComplete
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.pdb
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPayment.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPayment.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchLeases.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchLeases.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\ViewLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\ViewLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchPayments.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchPayments.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPaymentByLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPaymentByLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\EditByLeaseID.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v1 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\EditByLeaseID.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.exe.config
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.pdb
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\EntityFramework.dll
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\EntityFramework.xml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csprojAssemblyReference.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\EditByLeaseID.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPaymentByLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchPayments.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\ViewLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchLeases.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPayment.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\Welcome.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\App.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.lref
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\EditByLeaseID.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPaymentByLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchPayments.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\ViewLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchLeases.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPayment.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\Welcome.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.g.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.Properties.Resources.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.GenerateResource.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CoreCompileInputs.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CopyComplete
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.pdb
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\TerminateLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\TerminateLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.exe.manifest
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.application
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.TrustInfo.xml
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.exe.manifest
+C:\Users\bruhn\Desktop\Processing Information\Project\v3 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.application
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.exe.config
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.exe.manifest
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.application
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\MultiLease.pdb
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\EntityFramework.dll
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\bin\Debug\EntityFramework.xml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csprojAssemblyReference.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\EditByLeaseID.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchPayments.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\TerminateLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\ViewLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchLeases.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPayment.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\Welcome.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\App.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.lref
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\EditByLeaseID.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchPayments.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\TerminateLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\ViewLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\SearchLeases.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewPayment.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\Welcome.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\NewLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.g.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.Properties.Resources.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.GenerateResource.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CoreCompileInputs.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.TrustInfo.xml
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.exe.manifest
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.application
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CopyComplete
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\v4 ADO.NET - WPF\MultiLease\MultiLease\obj\Debug\MultiLease.pdb
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\bin\Debug\MultiLease.exe.config
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\bin\Debug\MultiLease.exe.manifest
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\bin\Debug\MultiLease.application
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\bin\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\bin\Debug\MultiLease.pdb
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\bin\Debug\EntityFramework.dll
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\bin\Debug\EntityFramework.xml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.csprojAssemblyReference.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\EditByLeaseID.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\NewPayment.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\SearchPayments.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\TerminateLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\ViewLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\SearchLeases.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\Welcome.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\NewLease.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\App.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease_MarkupCompile.lref
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\EditByLeaseID.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\NewPayment.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\SearchPayments.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\TerminateLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\ViewLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\SearchLeases.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\Welcome.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\NewLease.baml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.g.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.Properties.Resources.resources
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.GenerateResource.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CoreCompileInputs.cache
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.TrustInfo.xml
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.exe.manifest
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.application
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.csproj.CopyComplete
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.exe
+C:\Users\bruhn\Desktop\Processing Information\Project\Delivery\MultiLease\MultiLease\obj\Debug\MultiLease.pdb
